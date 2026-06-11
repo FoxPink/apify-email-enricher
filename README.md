@@ -23,11 +23,12 @@ Upload raw CSV/JSON contacts. Clean names, phones, emails. Verify deliverability
 - DNS MX lookup — verify mail server exists
 - SPF record resolution — check sender policy
 - SMTP handshake — confirm mailbox existence
-- Catch-All detection — 2-step: fake email vs real email
+- DNS-Verified fallback — when SMTP blocked, still get actionable `DNS_VERIFIED` status
+- Catch-All detection — with toggle to disable for faster runs
 - Bulk processing with configurable concurrency
 - 5 API endpoints: enriched, deliverable-only, summary, CSV, JSON
 
-**Status:** DELIVERABLE | RISKY_CATCH_ALL | UNDELIVERABLE | UNKNOWN
+**Status:** DELIVERABLE | DNS_VERIFIED | RISKY_CATCH_ALL | UNDELIVERABLE | UNKNOWN
 
 ## Quick Start
 
