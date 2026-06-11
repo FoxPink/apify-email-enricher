@@ -23,6 +23,8 @@ Stop wasting your budget on high bounce rates that burn your cold email domains.
 - **Layer 5: Pattern-Based Email Generation** - When email is missing but firstName+lastName+domain are provided, generates and tests 8 common email patterns (firstname.lastname@, f.lastname@, etc.) via SMTP handshake. Finds the working pattern automatically.
 - **Deliverability Scoring** - Every record gets a 0-100 score combining syntax, MX, SMTP, role-based, disposable, and catch-all signals. Filter by `score >= 80` for high-quality leads.
 - **100% Stable** - Built on pure network protocols. Since it has 0% dependency on web DOM structures, this Actor **never breaks** and requires zero maintenance.
+- **Alias Detection** — detects email aliases (e.g., `john+tag@domain.com`) and flags them for review to avoid duplicate contacts.
+- **Quality Scoring** — assigns a 0–100 quality score per contact based on syntax validity, MX/SPF presence, SMTP handshake result, and catch-all status.
 
 ---
 
