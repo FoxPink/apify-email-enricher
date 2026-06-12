@@ -91,6 +91,31 @@ Each record:
 
 ---
 
+## Why FoxPink?
+
+| vs. Competitor | Their Price | Our Price | Advantage |
+|----------------|-------------|-----------|-----------|
+| Waterfall Contact Enrichment | $200/1k | **$0.01/1k** | **20,000x cheaper** |
+| Bulk Email Verifier (overpriced) | $4.59/1k | **$0.01/1k** | **459x cheaper** |
+
+**Unique features they don't have:** `typoSuggestion` (Levenshtein), `isSpamTrap` (honeypot detection), `aliasType` (plus-tag/sub-addressing), 8-category `qualityBreakdown`.
+
+---
+
+## FoxPink Studio Ecosystem
+
+Combine with other FoxPink actors for a complete data pipeline:
+
+| Actor | Purpose | Price |
+|-------|---------|-------|
+| [Shopify Hidden API Spy](https://apify.com/foxpink/shopify-hidden-api-spy) | Zero-DOM Shopify product intelligence | $0.01/1k |
+| [RAG Markdown Chunker](https://apify.com/foxpink/apify-rag-markdown-chunker) | HTML→MD→Chunk→Embed pipeline | $0.01/1k |
+| [Odoo Market Intel](https://apify.com/foxpink/odoo-apps-market-intelligence) | Odoo Apps Store scraper & analysis | $0.05/1k |
+
+**Workflow example:** Shopify → scrape products → Email → enrich customer contacts → RAG → chunk product descriptions for semantic search.
+
+---
+
 ## Compatibility
 
 - 100% Node.js (18+)
